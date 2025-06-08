@@ -64,10 +64,3 @@ The application includes comprehensive unit tests for both the service and contr
 
 1. **Service tests**: Test the business logic for different threshold values
 2. **Controller tests**: Test HTTP request handling, validation, and responses
-
-## Future Enhancements
-
-1. **Caching**: Add caching to reduce API calls for repeated threshold values
-2. **Rate limiting**: Implement rate limiting to protect the external API
-3. **Circuit breaker**: Add a circuit breaker pattern to handle external API failures gracefully
-4. **Metrics and monitoring**: Add metrics collection for monitoring performance 
