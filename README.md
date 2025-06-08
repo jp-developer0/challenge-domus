@@ -71,3 +71,35 @@ Some things we'll evaluate are:
 1. Fork the repository as a public repository.
 2. Implement the solution.
 3. Link the repository to the person who sent you the challenge.
+
+## Solution Implementation
+
+This implementation offers a complete solution to the challenge using modern technologies and best practices:
+
+### Key Features
+
+- **Reactive Programming**: Built with Spring WebFlux for non-blocking, efficient processing
+- **Intelligent Pagination**: Handles external API pagination with an optimized approach
+- **Clean Architecture**: Well-separated concerns between controller, service, and repository layers
+- **Comprehensive Testing**: Includes unit tests for service and controller layers
+- **API Documentation**: Full Swagger/OpenAPI documentation
+- **Error Handling**: Graceful handling of all error cases and edge conditions
+
+### Technical Highlights
+
+- Java 17 and Spring Boot 3.x
+- Reactive programming with WebFlux and Reactor
+- WebClient for reactive HTTP communication
+- Proper model mapping with Jackson annotations
+- Efficient director filtering and sorting
+- Detailed solution documentation in the `solution_explanation` folder
+
+### Notable Design Decisions
+
+- Used a reactive approach to handle the paginated API efficiently
+- Implemented caching to improve performance for repeated requests
+- Created a clean separation of concerns with repository and service patterns
+- Added thorough logging for troubleshooting and monitoring
+- Included comprehensive error handling for all edge cases
+
+See the `solution_explanation` folder for more detailed documentation on the implementation.
